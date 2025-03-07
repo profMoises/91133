@@ -1,0 +1,76 @@
+/* Definindo a cor de fundo do corpo da página */
+body {
+    background-color: #f0f8ff; /* Cor de fundo azul clara, suave e alegre */
+    font-family: Arial, sans-serif; /* Definindo uma fonte simples e legível */
+    margin: 0; /* Removendo as margens padrões do navegador */
+    padding: 0; /* Removendo o padding padrões do navegador */
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #ff6347; /* Cor de fundo vibrante, vermelho/tomate */
+    color: white; /* Cor do texto em branco para contraste */
+    text-align: center; /* Centralizando o texto */
+    padding: 20px 0; /* Espaçamento ao redor do texto do cabeçalho */
+}
+
+/* Estilizando os links do menu de navegação */
+nav ul {
+    list-style-type: none; /* Removendo os pontos das listas */
+    padding: 0; /* Removendo o padding da lista */
+    text-align: center; /* Centralizando os itens da lista */
+}
+
+nav ul li {
+    display: inline; /* Exibindo os itens da lista na horizontal */
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+}
+
+nav ul li a {
+    text-decoration: none; /* Removendo o sublinhado dos links */
+    color: #fff; /* Cor do texto do link em branco */
+    font-size: 18px; /* Tamanho da fonte do link */
+    transition: color 0.3s ease; /* Transição suave para a cor do link ao passar o mouse */
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Cor amarela vibrante ao passar o mouse */
+}
+
+/* Estilizando as seções */
+section {
+    margin: 20px; /* Espaçamento entre as seções */
+    padding: 15px; /* Espaçamento interno das seções */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombras suaves para dar profundidade */
+    background-color: #ffffff; /* Cor de fundo branca para contraste */
+}
+
+/* Estilizando os títulos dentro das seções */
+h2 {
+    color: #ff6347; /* Cor do título vermelho vibrante */
+    text-align: center; /* Centralizando os títulos */
+}
+
+/* Estilizando os links dentro das seções */
+a {
+    color: #ff6347; /* Cor vibrante vermelha para os links */
+    text-decoration: none; /* Removendo sublinhado dos links */
+    font-weight: bold; /* Deixando os links em negrito */
+    transition: color 0.3s ease; /* Transição suave para cor ao passar o mouse */
+}
+
+a:hover {
+    color: #ffeb3b; /* Cor amarela ao passar o mouse */
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #ff6347; /* Cor de fundo vibrante para o rodapé */
+    color: white; /* Cor do texto branco */
+    text-align: center; /* Centralizando o texto do rodapé */
+    padding: 10px 0; /* Espaçamento ao redor do texto do rodapé */
+    position: absolute; /* Fixando o rodapé na parte inferior */
+    width: 100%; /* Garantindo que o rodapé ocupe toda a largura da página */
+    bottom: 0;
+}
