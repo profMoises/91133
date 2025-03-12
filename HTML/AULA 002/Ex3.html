@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Clientes</title>
+</head>
+<body>
+
+  <h1>Cadastro de Clientes</h1>
+
+  <form action="/salvar_cliente" method="POST">
+    <!-- Campo de nome -->
+    <label for="nome_cliente">Nome:</label>
+    <input type="text" id="nome_cliente" name="nome_cliente" required><br><br>
+
+    <!-- Campo de telefone -->
+    <label for="telefone_cliente">Telefone:</label>
+    <input type="tel" id="telefone_cliente" name="telefone_cliente" required><br><br>
+
+    <!-- Campo de data de nascimento -->
+    <label for="nascimento_cliente">Data de Nascimento:</label>
+    <input type="date" id="nascimento_cliente" name="nascimento_cliente" required><br><br>
+
+    <!-- Botão de submit -->
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <h2>Lista de Clientes</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Telefone</th>
+        <th>Data de Nascimento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>João Silva</td>
+        <td>(11) 98765-4321</td>
+        <td>1985-03-15</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback</title>
+</head>
+<body>
+
+  <h1>Deixe seu Feedback</h1>
+
+  <form action="/enviar_feedback" method="POST">
+    <!-- Avaliação de satisfação -->
+    <label>Satisfação:</label><br>
+    <input type="radio" id="satisfeito" name="satisfacao" value="satisfeito">
+    <label for="satisfeito">Satisfeito</label><br>
+    <input type="radio" id="insatisfeito" name="satisfacao" value="insatisfeito">
+    <label for="insatisfeito">Insatisfeito</label><br><br>
+
+    <!-- Sugestões -->
+    <label for="sugestoes">Sugestões:</label><br>
+    <textarea id="sugestoes" name="sugestoes" rows="4" cols="50"></textarea><br><br>
+
+    <!-- Checkbox para receber novidades -->
+    <label for="novidades">Deseja receber novidades por e-mail?</label>
+    <input type="checkbox" id="novidades" name="novidades" value="sim"><br><br>
+
+    <button type="submit">Enviar Feedback</button>
+  </form>
+
+</body>
+</html>
