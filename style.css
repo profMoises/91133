@@ -1,0 +1,95 @@
+/* Zera as conf da pág*/
+
+*{
+    margin: 0; 
+    /*zera margem*/
+    padding: 0;  
+    /*zera espaço*/
+    box-sizing: border-box;
+     /*zera bordas*/
+}
+
+header{
+
+    background-color: rgb(178, 230, 230);
+    margin: 50px;
+    padding: 30px;
+}
+
+ul li{
+
+    /*Tira as bolinhas*/
+    list-style: none;
+    display: inline;
+    padding: 8px;
+
+}
+
+a{
+    /*tira o sublinhado*/
+    text-decoration: none;
+    color: rgb(20, 20, 101);
+    font-weight: bold;
+    font-size: 18pt;
+    cursor: pointer;
+  
+}
+
+a:hover{
+
+    color: rgba(93, 10, 10, 0.704);
+    text-decoration: overline;
+    padding: 12px;
+    transition: 5ms;
+    
+}
+
+section{
+
+    margin: 50px;
+  
+
+}
+
+h2{
+    background-color: rgb(178, 230, 230);
+    padding: 15px;
+    color: rgb(20, 20, 101);
+}
+
+
+
+/*
+.about{
+    background-color: rgb(178, 230, 230);
+}
+*/
+
+#font-type{
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+
+    padding: 10px;
+    text-align: justify;
+}
+
+ footer{
+
+    margin: 30px;
+
+}
+
+.rodape{
+
+    margin: 30px;
+    text-align: center;
+}
+
+html{
+
+    scroll-behavior: smooth;
+    transition: 5ms;
+}
