@@ -4,19 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulário de Contato</title>
+  <link rel="stylesheet" href="form.css">
 </head>
 <body>
 
   <h1>Formulário de Contato</h1>
 
-  <form action="/enviar" method="POST">
+  <form action="/enviar" method="post">
     <!-- Campo de texto para o nome -->
-    <label for="nome">Nome:</label>
+    <label for="nome">Nome:</label><br>
     <input type="text" id="nome" name="nome" required><br><br>
 
     <!-- Campo de email -->
-    <label for="email">E-mail:</label>
+    <label for="email">E-mail:</label><br>
     <input type="email" id="email" name="email" required><br><br>
+
+   <!-- Campo de senha -->
+    <label for="senha">Senha:</label><br>
+    <input type="password" id="senha" name="senha" required><br><br>
+   
 
     <!-- Campo de mensagem -->
     <label for="mensagem">Mensagem:</label><br>

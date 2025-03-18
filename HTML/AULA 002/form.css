@@ -1,0 +1,51 @@
+h1{
+
+    color: rgb(2, 2, 66);
+    text-align: center;
+}
+
+form{
+
+    text-align: center;
+    
+
+
+}
+
+
+label{
+
+    color: rgb(2, 2, 66);
+    font-weight: bold;
+    
+
+}
+
+input{
+        width: 220px;
+       /* Bordas arredondadas*/
+        border-radius: 4px;
+}
+
+textarea{
+
+    width: 220px;
+    border-radius: 4px;
+}
+
+
+button{
+
+        width: 100 px;
+        height: 30px;
+        color: rgb(2, 2, 66);
+        background-color: rgb(237, 237, 161);
+}
+
+button:hover{
+
+    color: rgba(212, 212, 224, 0.873);
+    background-color: rgb(13, 52, 209);
+    font-weight: bold;
+}
+

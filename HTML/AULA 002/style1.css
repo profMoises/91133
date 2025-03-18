@@ -1,0 +1,36 @@
+/* Seletores CSS */
+
+h1{
+
+    /*Centralizar os elementos*/
+    text-align: center;
+    /*Cor do texto*/
+    color: burlywood;
+    /*Colocar em negrito*/
+    font-weight: bold;
+
+}
+
+table{
+
+    /*Largura da tabela*/
+    width: 100%;
+    /*Colcar uma borda*/
+    border: 1px solid;
+ 
+
+}
+
+td{
+
+        /*Centralizar os elementos*/
+        text-align: center;
+}
+
+
+thead{
+
+    background-color: rgb(157, 250, 219);
+
+}
+
