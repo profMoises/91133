@@ -6,7 +6,7 @@
     <title>Painel</title>
 </head>
 <body>
-    <h1>Bem-vindo ao Painel!</h1>
+    <h1>Bem-vindo(a) ao Painel!</h1>
     <p id="userWelcome">Carregando...</p>
 
     <!-- Botão para sair -->
@@ -18,13 +18,16 @@
 
         // Se o nome do usuário estiver armazenado, exibe uma mensagem personalizada
         if (username) {
-            document.getElementById("userWelcome").textContent = `Bem-vindo, ${username}!`;
+            document.getElementById("userWelcome").
+            textContent = `Bem-vindo, ${username}!`;
         } else {
-            document.getElementById("userWelcome").textContent = "Nome de usuário não encontrado.";
+            document.getElementById("userWelcome").
+            textContent = "Nome de usuário não encontrado.";
         }
 
         // Função para sair (destruir a sessão e voltar para o login)
-        document.getElementById("logoutBtn").addEventListener("click", function() {
+        document.getElementById("logoutBtn").addEventListener("click", 
+        function() {
             // Remove o nome de usuário do localStorage
             localStorage.removeItem("username");
 
