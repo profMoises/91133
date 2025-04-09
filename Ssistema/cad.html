@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>CadProd - Sistema de Cadastro de Produtos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Cadastro de Produto</h2>
+        <p id="bemVindo"></p>
+
+        <form id="cadastroForm">
+            <label for="produto">Produto:</label>
+            <input type="text" id="produto" name="produto" required>
+
+            <label for="preco">Preço:</label>
+            <input type="text" id="preco" name="preco" required>
+
+            <label for="quantidade">Quantidade:</label>
+            <input type="text" id="quantidade" name="quantidade" required>
+
+            <label for="total">Total:</label>
+            <input type="text" id="total" name="total" readonly>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <button id="sairBtn" style="margin-top: 20px;">Sair</button>
+
+        <p id="msgErro" class="erro"></p>
+    </div>
+
+    <script src="controle.js"></script>
+</body>
+</html>
