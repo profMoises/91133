@@ -23,7 +23,7 @@ include '/view/conecta.php';
 // Mostra alerta e redireciona para o formulário
 echo "<script>
     alert('Cadastro realizado com sucesso!');
-    window.location.href = 'http://localhost/app/index.html';
+    window.location.href = 'http://localhost/app/cad.html';
 </script>";
 ?>
 

@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if (empty($usuario) || empty($senha)) {
         echo "<script>
                 alert('Preencha todos os campos.');
-                window.location.href = 'localhost://app/index.html';
+                window.location.href = 'index.html';
               </script>";
         exit;
     }
@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     exit;
 } else {
     // Caso o acesso não seja via POST, redireciona para a página de login
-    header("Location: http://localhost/app/index.html");
+    header("Location: index.html");
     exit;
 }
 ?>
